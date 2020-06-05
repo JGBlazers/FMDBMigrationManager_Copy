@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/fcgIsPioneer/FMDBMigrationManager_Copy/tree/master/FMDBMigrationManager'
   s.authors  = { 'JG' => '2044471447@qq.com' }
   s.source   = { :git => 'https://github.com/fcgIsPioneer/FMDBMigrationManager_Copy.git', :tag => "v#{s.version}" }
-  s.source_files = 'Code/*'
+  s.source_files = 'Code/'
   s.requires_arc = true
   
   s.library = 'sqlite3'
